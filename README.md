@@ -9,7 +9,7 @@ Pretty ugly but starting to put the pieces together.
 ## Current Goals
 1. Decide what content the site should have
 1. Write copy/text which I'm not much good at so suggestions desired
-1. Find a template that the team things is agreeable or fix-up the current one
+1. Find a template that the team thinks is agreeable or fix-up the current one
 
 ## Current Proposed Sections
 (In order of desired prominence)
