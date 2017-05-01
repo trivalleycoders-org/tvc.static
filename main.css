@@ -19,7 +19,6 @@ a:hover {
   border: 1px solid #fff;
 }
 
-
 /*
  * Base structure
  */
@@ -31,8 +30,24 @@ body {
 }
 body {
   color: #fff;
-  text-align: center;
+  font-size: 2em;
+  text-align: justify;
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
+}
+
+.card {
+  background-color: white;
+  color: black;
+  margin: 5px;
+  padding: 5px;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 0.8em
 }
 
 .cover-container {
@@ -45,7 +60,23 @@ body {
   padding: 30px;
 }
 
+section {
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
 
+.section-title-text {
+  font-size: 3em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.section-text {
+  display: flex;
+  justify-content: center;
+  text-align: justify;
+  margin: 0 5% 15px 5%;
+}
 /*
  * Header
  */
@@ -58,8 +89,8 @@ body {
   .masthead-brand {
     float: left;
   }
-  .masthead-nav {
-    float: right;
+  .tvc-masthead-nav {
+
   }
 }
 
@@ -74,7 +105,6 @@ body {
   padding: 10px 20px;
   font-weight: bold;
 }
-
 
 /*
  * Footer
@@ -126,10 +156,115 @@ body {
   margin: 0 5% 0 5%;
 }
 
-.tvc-page-title {
-  text-align: center;
+/*
+    top-bar
+ */
+.tvc-top-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 10px;
 }
 
+.brand {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.tvc-logo {
+  max-width: 70px;
+  max-height: 70px;
+}
+
+.tvc-brand-title {
+  font-size: 45px;
+  margin-left: 20px;
+}
+
+/*
+    intro
+ */
+.tvc-intro-text {
+  padding: 30px 0 30px 0;
+  margin: 0 20% 10px 10%;
+}
+
+/*
+    tvc-team
+ */
+.tvc-team {
+  display: flex;
+  flex-direction: column;
+}
+
+.tvc-team-members {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/*
+.tvc-member {
+  max-width: 145px;
+  max-height: 145px;
+  min-width: 80px;
+  min-height: 80px;
+}
+*/
+
+.tvc-member-img {
+  max-width: 150px;
+  margin: auto;
+}
+
+/*
+    tvc-technologies
+ */
+.tvc-technologies {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.tvc-technology-logo {
+  width: 80px;
+}
+
+/*
+    tvc-projects
+ */
+
+.tvc-projects {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+.tvc-project {
+  max-width: 225px;
+  max-height: 85px;
+  min-width: 225px;
+  min-height: 85px;
+}
+
+/*
+  NAV
+ */
+ nav {
+   /* align-self: flex-end;*/
+ }
+
+.tvc-masthead-nav {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 .tvc-masthead-nav > li {
   display: inline-block;
 }
@@ -158,39 +293,6 @@ body {
   border-bottom-color: #fff;
 }
 
-.tvc-team {
-  display: flex;
-  flex-direction: row;
-}
+.tvc-about {
 
-.tvc-person {
-  max-width: 145px;
-  max-height: 145px;
-  min-width: 80px;
-  min-height: 80px;
-  margin-right: 5px;
-  margin-left: 5px;
-  background-color: white;
-}
-
-.tvc-person-img {
-  max-width: 70%;
-  margin: auto;
-}
-.tvc-person-name {
-  color: black;
-}
-.tvc-person-description {
-  color: black;
-}
-
-.tvc-technology-logo {
-  width: 100px;
-}
-
-.tvc-technology-logo-container {
-  margin-right: 20%;
-  margin-left: 20%;
-  text-align: center;
-  vertical-align: middle;
 }
