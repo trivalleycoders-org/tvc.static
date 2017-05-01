@@ -19,3 +19,10 @@ Pretty ugly but starting to put the pieces together.
 1. Projects
 1. Team members
 1. ??
+
+
+## Work Needed
+1. Decide layout (sidebars?)
+2. Fix up technology stack icons (see /img/logos). Size needs to be standardized and all should have white titles
+3. Spacing / margins & alignment
+4. Add 'Technologies' to menu - maybe
